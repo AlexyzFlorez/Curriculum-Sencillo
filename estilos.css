@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    font-family: 'Roboto', sans-serif;
+    --color-primario: #010522;
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    font-size: 24px;
+}
+
+p
+{
+    padding: 0;
+    margin: 0;
+}
+.fondo
+{
+    background: var(--color-primario);
+}
+
+.seccion
+{
+    border-radius: 20px;
+}
+
+.texto-blanco
+{
+    color: var(--color-blanco)
+}
+
+.texto-negro
+{
+    color: var(--color-negro)
+}
+
+.texto-negrita
+{
+    font-weight: bold;
+}
+
+.foto-perfil
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.lista-columnas
+{
+    columns: 2;
+}
+
+.icono
+{
+    color: var(--color-primario);
+    font-size: 40px;
+}
+
